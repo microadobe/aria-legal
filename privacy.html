@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Aria — Privacy Policy</title>
+<style>
+  :root { --ink:#1a1325; --ink-soft:#4a3f5c; --paper:#fafafa; --rule:#e8e4ec; --link:#5d4a8a; }
+  * { box-sizing:border-box; }
+  body { margin:0; background:var(--paper); color:var(--ink); font-family:-apple-system,BlinkMacSystemFont,"SF Pro Text",system-ui,sans-serif; font-size:17px; line-height:1.6; padding:24px 20px 64px; }
+  main { max-width:680px; margin:0 auto; }
+  h1 { font-family:"New York","Times New Roman",Georgia,serif; font-weight:600; font-size:32px; line-height:1.2; margin:16px 0 8px; letter-spacing:-0.02em; }
+  h2 { font-family:"New York","Times New Roman",Georgia,serif; font-weight:600; font-size:22px; line-height:1.3; margin:36px 0 12px; letter-spacing:-0.01em; }
+  p, ul, ol { margin:0 0 16px; }
+  ul, ol { padding-left:22px; }
+  li { margin-bottom:8px; }
+  strong { font-weight:600; color:var(--ink); }
+  a { color:var(--link); text-decoration:underline; text-underline-offset:2px; }
+  .effective { color:var(--ink-soft); font-size:15px; margin-bottom:8px; }
+  hr { border:none; border-top:1px solid var(--rule); margin:32px 0; }
+  @media (prefers-color-scheme:dark) {
+    :root { --ink:#f0ebf5; --ink-soft:#b8b0c5; --paper:#14101c; --rule:#2a2335; --link:#b3a3e0; }
+  }
+</style>
+</head>
+<body>
+<main>
+<h1>Aria — Privacy Policy</h1>
+<p class="effective"><strong>Effective date:</strong> May 28, 2026</p>
+<h2>Who we are</h2>
+<p>Aria ("we," "us," "our") is an iOS application that delivers daily, AI-personalized manifestation prompts, voice-guided affirmations, and a private journaling experience. You can reach us at <strong>kadirsoran5@gmail.com</strong>.</p>
+<h2>Data we collect</h2>
+<p>When you use Aria, the following information may be collected or processed:</p>
+<ul>
+<li><strong>Device identifier.</strong> A random UUID generated on your device. Used to scope your daily prompt cache so you receive a consistent daily experience and avoid duplicate generations. It is not linked to your Apple ID, email, or any other personal identifier.</li>
+<li><strong>Name.</strong> The first name you provide during onboarding. Stored on your device and sent with prompt-generation requests so prompts can address you personally.</li>
+<li><strong>Goal, blocker, and practice selections.</strong> The onboarding answers you give us. Stored on your device and sent with prompt requests for personalization.</li>
+<li><strong>Journal entries.</strong> Anything you write in the Write screen is stored <strong>only on your device</strong> via Apple's SwiftData. We do not send your journal entries to our servers, OpenAI, or any third party.</li>
+<li><strong>Audio cache.</strong> Generated affirmation audio is cached on your device so playback is instant on repeat listens. The audio is also briefly cached on our infrastructure to avoid regenerating identical content; cached audio is keyed by a hash of the prompt text and has no link to your identity.</li>
+<li><strong>IP address.</strong> When you make a request to our backend, our infrastructure provider (Supabase) automatically logs your IP address for security and rate-limiting purposes. We do not associate IP addresses with your identity or use them for tracking.</li>
+<li><strong>Usage data.</strong> Standard Apple-provided analytics if you have enabled "Share with App Developers" in iOS Settings. We do not run any third-party analytics SDK at launch.</li>
+</ul>
+<h2>Data we do NOT collect</h2>
+<ul>
+<li>Email address, phone number, or password (Aria has no user accounts).</li>
+<li>Contacts, photos, calendars, or files.</li>
+<li>Precise location or health data.</li>
+<li>Advertising identifiers (IDFA). We do not display any third-party ads inside the app.</li>
+<li>Trackers from data brokers or social networks.</li>
+</ul>
+<h2>Third-party services</h2>
+<ul>
+<li><strong>Supabase (EU region).</strong> Hosts our backend, prompt cache table, and audio storage bucket.</li>
+<li><strong>OpenAI (United States).</strong> Generates the daily prompt text. Per OpenAI's enterprise policy, API data is not used to train their models.</li>
+<li><strong>ElevenLabs (United States).</strong> Generates the audio for voice affirmations.</li>
+<li><strong>RevenueCat (United States).</strong> Manages your subscription state and validates receipts with Apple.</li>
+<li><strong>Apple.</strong> App Store and platform services — billing, push notifications, In-App Purchase, and analytics.</li>
+</ul>
+<h2>Data retention</h2>
+<p>Cached prompt and audio data on our servers is retained for up to 90 days, after which it is automatically purged. On-device data is retained until you uninstall the app. Subscription records held by RevenueCat and Apple are retained per their respective retention policies.</p>
+<h2>Children</h2>
+<p>Aria is rated 9+ on the App Store but is not directed at children under 13 (or under 16 in the European Union). We do not knowingly collect information from anyone in those age groups. If you believe a child has provided us information, contact us at <a href="mailto:kadirsoran5@gmail.com">kadirsoran5@gmail.com</a> and we will remove it.</p>
+<h2>Subscription billing</h2>
+<p>All subscription payments are processed by Apple via In-App Purchase. We do not see or store your payment method. Refund requests must go through Apple at <a href="https://reportaproblem.apple.com">reportaproblem.apple.com</a>.</p>
+<h2>Your rights</h2>
+<ul>
+<li><strong>Delete on-device data:</strong> uninstall the app.</li>
+<li><strong>Delete server-side cache:</strong> email <a href="mailto:kadirsoran5@gmail.com">kadirsoran5@gmail.com</a> from a device that has the app installed and we will purge any cache rows associated with your device identifier.</li>
+<li><strong>EU / UK residents:</strong> you have the rights granted by GDPR / UK GDPR. Email <a href="mailto:kadirsoran5@gmail.com">kadirsoran5@gmail.com</a>.</li>
+<li><strong>California residents:</strong> you have the rights granted by the CCPA. We do not sell or share personal information for cross-context behavioral advertising.</li>
+</ul>
+<h2>International transfers</h2>
+<p>Aria processes data in the United States (OpenAI, ElevenLabs, RevenueCat) and the European Union (Supabase). By using Aria you consent to these transfers.</p>
+<h2>Security</h2>
+<p>We use industry-standard transport encryption (HTTPS / TLS) for every network request. Data at rest is protected by the underlying provider's encryption (Supabase, Apple).</p>
+<h2>Changes to this policy</h2>
+<p>We may update this policy from time to time. We will update the effective date above and surface a notice in the app release notes when material changes are made.</p>
+<h2>Contact</h2>
+<p>Questions, requests, or concerns: <strong><a href="mailto:kadirsoran5@gmail.com">kadirsoran5@gmail.com</a></strong>.</p>
+<hr>
+<p style="color:var(--ink-soft); font-size:14px; text-align:center;">© 2026 Aria</p>
+</main>
+</body>
+</html>
